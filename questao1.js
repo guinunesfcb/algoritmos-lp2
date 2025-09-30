@@ -1,3 +1,8 @@
+/*Faça um algoritmo de compra de ticket de cinema, o cinema tem 4 linhas e 4 fileiras de cadeiras para serem escolhidas.
+
+O algoritmo não deverá ser finalizado nunca. Ele exibirá ao usuário o layout das cadeiras do cinema semelhante ao que está abaixo, mostrando cadeiras livres e preenchidas, pedirá para o usuário informar a posição da cadeira desejada, exibirá uma informação confirmando a compra. Logo em seguida, limpará a tela, e continuará o processo de compra de ingresso para um novo usuário
+*/
+
 import readlineSync from 'readline-sync';
 
 const fileira = [
