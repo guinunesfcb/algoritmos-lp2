@@ -1,3 +1,19 @@
+/*
+Questão 2 - Faça um algoritmo que peça para o usuário informar os valores de um array multidimensional 3x3.
+
+Exiba o array para o usuário, e após isso, peça para o usuário informar um número de 1 a 3.
+
+Dependendo da opção que o usuário escolher acontecerá o seguinte:
+
+1 - vai retornar o somatório de todos os elementos da linha 1.
+
+2 - vai retornar a multiplicação da diagonal da matriz.
+
+3 - vai retornar a quantidade total de números pares presente na matriz inteira
+
+4 - encerrar o programa
+*/
+
 import readlineSync from 'readline-sync';
 
 const matriz = [
